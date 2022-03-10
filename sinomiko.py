@@ -1,6 +1,6 @@
 from netmiko import ConnectHandler
 from datetime import datetime
-import paramiko
+# import paramiko
 import argparse
 import os
 import threading
