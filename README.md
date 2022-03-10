@@ -4,5 +4,5 @@
 # install step :
 	tar xf python3.8.tar.gz
 	mv ./python3.8 /usr/local/lib/
-	mv python3.8 /usr/bin/python3
+	mv python3 /usr/bin/python3
 
