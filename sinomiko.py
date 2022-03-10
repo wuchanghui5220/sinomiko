@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from netmiko import ConnectHandler
 from datetime import datetime
 # import paramiko
