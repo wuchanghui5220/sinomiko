@@ -2,8 +2,8 @@
 # A ssh client for MLNX_OS, cumuluslinux, linux server with python3.8
 
 # download tar package 
-链接：https://pan.baidu.com/s/1yLfY0b8UEaiydJY9jq1P7g 
-提取码：ch4t 
+链接：https://pan.baidu.com/s/1RrkSs6K0Q8jIrFuHfDjaGg 
+提取码：miko 
 
 
 # install step :
