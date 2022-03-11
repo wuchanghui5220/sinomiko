@@ -16,6 +16,9 @@
 
 # example:
 	sinomiko 192.168.1.202 -u admin -p admin -c "show health-report"
+	
+# use switch's ip address file AND commands file
+	sinomiko switch-ip.txt -c switch-commands.txt 
 
 # Mellanox switch's commands
 	show hosts |include Hostname
@@ -26,4 +29,5 @@
 	show fan
 	show interfaces ib status |include LinkUp
 	
+
 # Enjoy!
