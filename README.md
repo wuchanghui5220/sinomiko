@@ -29,5 +29,22 @@
 	show fan
 	show interfaces ib status |include LinkUp
 	
-
+# For linux server
+	hostname
+	uname -r
+	
+# For linux server with Mellanox adapter
+	lspci -vvvxxx -s `lspci |grep Mellanox |awk '{print $1}'` |egrep "SN|PN"
+	lspci -vvvxxx -s `lspci |grep Mellanox |awk '{print $1}'` 
+	lspci |grep Mellanox
+	
+	ofed_info -s
+	sysinfo-snapshot.py
+	sminfo
+	smpquery nd <lid>
+	saquery -s
+	mlnx_tune
+	mlxlink -d mlx5_0 -m
+	
+	
 # Enjoy!
