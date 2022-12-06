@@ -8,7 +8,7 @@
 
 
 # install 
-	## install independence
+	## install independence, if Linux server redhat 7
 
 	yum install gcc -y
 	yum install zlib zlib-devel -y
