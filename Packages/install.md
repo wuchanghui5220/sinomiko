@@ -1,29 +1,27 @@
-## install independence
-
-yum install gcc -y
-yum install zlib zlib-devel -y
+# install independence if Linux server Redhat 7
+    yum install gcc -y
+    yum install zlib zlib-devel -y
 
 ########################################################## 
 ####             install openssl                      ####
 ##########################################################
 
-## download openssl file
+# download openssl file
 
- wget --no-check-certificate https://www.openssl.org/source/openssl-1.1.1s.tar.gz
- tar xf openssl-1.1.1s.tar.gz
- cd openssl-1.1.1s
+     wget --no-check-certificate https://www.openssl.org/source/openssl-1.1.1s.tar.gz
+     tar xf openssl-1.1.1s.tar.gz
+     cd openssl-1.1.1s
 
-## config and  install
+# config and  install
 
- ./config --prefix=/usr/local/openssl --openssldir=/usr/local/openssl no-ssl2
+     ./config --prefix=/usr/local/openssl --openssldir=/usr/local/openssl no-ssl2
+     make 
+     make install
 
- make 
- make install
 
-
-## verify openssl
-# whereis openssl
-openssl: /usr/bin/openssl /usr/lib64/openssl /usr/local/openssl /usr/share/man/man1/openssl.1ssl.gz
+# verify openssl
+    # whereis openssl
+    openssl: /usr/bin/openssl /usr/lib64/openssl /usr/local/openssl /usr/share/man/man1/openssl.1ssl.gz
 
 
 
