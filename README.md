@@ -53,8 +53,7 @@
 	mlnx_tune
 	mlxlink -d mlx5_0 -m
 	
-# flint Firmware
-# A example
+# flint Firmware example
 	[root@host13 ~]# mst start
 	Starting MST (Mellanox Software Tools) driver set
 	Loading MST PCI module - Success
