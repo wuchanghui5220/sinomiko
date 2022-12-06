@@ -1,5 +1,5 @@
 # sinomiko
-# A ssh client for MLNX_OS, cumuluslinux, linux server with python3.8
+# A ssh client for MLNX_OS, cumuluslinux, linux server with python3.11
 
 # download tar package 
 链接：https://pan.baidu.com/s/1WJL19Rj_pl86fzIPYaqXYA 
@@ -8,7 +8,7 @@
 
 
 # install doc
-[link](https://github.com/wuchanghui5220/sinomiko/blob/main/Packages/install.md)
+[link to install.md](https://github.com/wuchanghui5220/sinomiko/blob/main/Packages/install.md)
 
 # example MLNX_OS :
 	sinomiko.py 192.168.1.202 -u admin -p admin -c "show health-report"
