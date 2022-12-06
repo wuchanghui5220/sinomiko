@@ -8,7 +8,7 @@
 
 
 # install doc
-
+	https://github.com/wuchanghui5220/sinomiko/blob/main/Packages/install.md
 
 # example MLNX_OS :
 	sinomiko.py 192.168.1.202 -u admin -p admin -c "show health-report"
